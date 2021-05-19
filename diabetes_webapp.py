@@ -22,8 +22,7 @@ st.image(image, caption='ML', use_column_width=True)
 
 # Getting the data
 
-df = pd.read_csv(
-    'C:/Users/anike/Desktop/colg-Final/diabetes_prediction_project/Final Year Project Final/dataset/new_diabetes.csv')
+df = pd.read_csv('new_diabetes.csv')
 df.drop('Unnamed: 0', axis=1, inplace=True)
 df.drop('Unnamed: 0.1', axis=1, inplace=True)
 # Subheader
